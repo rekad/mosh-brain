@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from gopigo import *
 from subprocess import call
 
@@ -11,7 +11,6 @@ AVAILABLE_COMMANDS = {
     'Stop': STOP,
     'Talk': TALK
 }
-
 
 app = Flask(__name__)
 
@@ -43,7 +42,8 @@ def command(cmd=None):
         print "Stopping"
     elif camera_command == 'T':
 	print "Talking"
-	call(["espeak","-s140","Hello everybody. Please cuddle me."])
+    # TODO: Validate msg 
+	call(["espeak","-s140",request.args.get('msg')])
 
     return response, 200, {'Content-Type': 'text/plain'}
 
