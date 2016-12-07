@@ -38,25 +38,26 @@ addEventListener("DOMContentLoaded", function() {
       request.open("GET", "/" + command, true);
       // and then we send it off
       request.send();
-  });
-}
-}, true);
-
-document.getElementById("msg-submit").addEventListener("click", function(e) {
+    });
+  }
+  document.getElementById("msg-submit").addEventListener("click", function(e) {
   e.preventDefault();
   msg = document.getElementById("msg").value
   var request = new XMLHttpRequest();
   request.onload = function() {
-      // We could do more interesting things with the response
-      // or, we could ignore it entirely
+        // We could do more interesting things with the response
+        // or, we could ignore it entirely
 
-      <!--alert(request.responseText);-->
-  };
-  // We point the request at the appropriate command
-  request.open("GET", "/" + talk + "?msg=" + msg, true);
-  // and then we send it off
-  request.send();
-})
+        <!--alert(request.responseText);-->
+    };
+    // We point the request at the appropriate command
+    request.open("GET", "/talk" + "?msg=" + msg, true);
+    // and then we send it off
+    request.send();
+  })
+}, true);
+
+
 </script>
 
 <body>
