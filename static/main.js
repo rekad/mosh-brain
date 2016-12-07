@@ -22,7 +22,7 @@ addEventListener("DOMContentLoaded", function() {
     e.preventDefault();
     msgTextarea = document.getElementById("msg")
     msg = msgTextarea.value
-    msgTextarea = ""
+    msgTextarea.value = ""
     var request = new XMLHttpRequest();
     request.open("GET", "/cmd/talk" + "?msg=" + msg, true);
     request.send();
