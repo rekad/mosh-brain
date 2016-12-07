@@ -21,7 +21,7 @@ addEventListener("DOMContentLoaded", function() {
   document.getElementById("msg-submit").addEventListener("click", function(e) {
     e.preventDefault();
     msgTextarea = document.getElementById("msg")
-    msg = msg-textarea.value
+    msg = msgTextarea.value
     msgTextarea = ""
     var request = new XMLHttpRequest();
     request.open("GET", "/cmd/talk" + "?msg=" + msg, true);
