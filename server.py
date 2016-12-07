@@ -24,7 +24,6 @@ app = Flask(__name__)
 def hello():
     return render_template('main.html', commands=AVAILABLE_COMMANDS)
 
-
 @app.route('/<cmd>')
 def command(cmd=None):    
     camera_command = cmd[0].upper()
