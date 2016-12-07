@@ -1,6 +1,70 @@
 .header {
-	text-align: center
+	text-align: center;
+	margin: 20px 0px 25px 0px;
 }
-#stream {
-	border: 1px solid grey;
+.header > img {
+	width: 150px;
+}
+body {
+	background-color: #C4C4C4;
+}
+.panel {
+	border-top: thick solid #37FF00;
+	text-align: center;
+	padding: 15px;
+}
+.command {
+	width: 60px;
+	height: 60px;
+	margin: 2px;
+}
+#up {
+	width: 60px;
+	height: 60px;
+	background: url(btn_forward.png) no-repeat top;
+	background-size: 100%;
+}
+#up:active {
+	background: url(btn_forward_active.png) no-repeat bottom;
+	background-size: 100%;
+}
+#left {
+	width: 60px;
+	height: 60px;
+	background: url(btn_left.png) no-repeat top;
+	background-size: 100%;
+}
+#left:active {
+	background: url(btn_left_active.png) no-repeat bottom;
+	background-size: 100%;
+}
+#right {
+	width: 60px;
+	height: 60px;
+	background: url(btn_right.png) no-repeat top;
+	background-size: 100%;
+}
+#right:active {
+	background: url(btn_right_active.png) no-repeat bottom;
+	background-size: 100%;
+}
+#back {
+	width: 60px;
+	height: 60px;
+	background: url(btn_back.png) no-repeat top;
+	background-size: 100%;
+}
+#back:active {
+	background: url(btn_right_active.png) no-repeat bottom;
+	background-size: 100%;
+}
+#stop {
+	width: 60px;
+	height: 60px;
+	background: url(btn_stop.png) no-repeat top;
+	background-size: 100%;
+}
+#stop:active {
+	background: url(btn_stop_active.png) no-repeat bottom;
+	background-size: 100%;
 }
