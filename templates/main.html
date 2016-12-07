@@ -2,19 +2,40 @@
 <head>
   <title>MoshiMoshi!</title>
   <script src="main.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <h1>Play with me</h1>
-  {% for label, command in commands.items() %}
-  <button class="command command-{{ command }}" value="{{ command }}">
-    {{ label }} </button>
-  {% endfor %}
-  <br>
-  <textarea id="msg"></textarea>
-  <button id="msg-submit">Say</button>
-  <br>
-  <img alt="" src="http://89.217.46.144:9000/?action=stream" width="640" height="480" />
+  <div class="container">
+    <div class="header">
+      <h1>Moshi Moshi</h1>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <img id="stream" class="img-responsive" alt="" src="http://89.217.46.144:9000/?action=stream" width="640" height="480"/>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <button class="command command-{{ command }} btn btn-default">
+          Left
+        </button>
+        <button class="command command-{{ command }} btn btn-default">
+          Right
+        </button>
+        <button class="command command-{{ command }} btn btn-default">
+          Forward
+        </button>
+        <button class="command command-{{ command }} btn btn-default">
+          Back
+        </button>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div>
+          <textarea id="msg" class="form-control" rows="6" ></textarea>
+        </div>
+          <button id="msg-submit" class="btn btn-default">Say</button>
+        </div>
+    </div>
+  </div>
 </body>
 </html>
 
