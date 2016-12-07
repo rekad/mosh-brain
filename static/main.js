@@ -13,7 +13,7 @@ addEventListener("DOMContentLoaded", function() {
           <!--alert(request.responseText);-->
       };
       // We point the request at the appropriate command
-      request.open("GET", "/" + command, true);
+      request.open("GET", "/cmd/" + command, true);
       // and then we send it off
       request.send();
     });
@@ -24,7 +24,7 @@ addEventListener("DOMContentLoaded", function() {
     msg = msg-textarea.value
     msgTextarea = ""
     var request = new XMLHttpRequest();
-    request.open("GET", "/talk" + "?msg=" + msg, true);
+    request.open("GET", "/cmd/talk" + "?msg=" + msg, true);
     request.send();
   })
 }, true);
