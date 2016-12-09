@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-# from gopigo import *
+from gopigo import *
 from subprocess import call
 import time
 
@@ -32,26 +32,26 @@ def command(cmd=None):
     # GIVE GOPIGO COMMAND
     if camera_command == 'F':
         print "Moving forward"
-        # fwd()
+        fwd()
         time.sleep(STIME_MOV)
-        # stop()
+        stop()
     elif camera_command == 'B':
-        # bwd()
+        bwd()
         print "Moving backward"
         time.sleep(STIME_MOV)
-        # stop()
+        stop()
     elif camera_command == 'L':
-        # left()
+        left()
         print "Turning left"
         time.sleep(STIME_ROT)
-        # stop()
+        stop()
     elif camera_command == 'R':
-        # right()
+        right()
         print "Turning right"
         time.sleep(STIME_ROT)
-        # stop()
+        stop()
     elif camera_command == 'S':
-        # stop()
+        stop()
         print "Stopping"
     elif camera_command == 'T':
 	print "Talking"

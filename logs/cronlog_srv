@@ -2,275 +2,141 @@ sudo: unable to resolve host (none)
  * Restarting with stat
  * Debugger is active!
  * Debugger pin code: 337-934-253
-89.217.46.144 - - [07/Dec/2016 17:34:18] "GET / HTTP/1.1" 200 -
-89.217.46.144 - - [07/Dec/2016 17:34:19] "GET /static/main.css HTTP/1.1" 200 -
-89.217.46.144 - - [07/Dec/2016 17:34:19] "GET /static/main.js HTTP/1.1" 200 -
-89.217.46.144 - - [07/Dec/2016 17:34:20] "GET /static/logo.png HTTP/1.1" 200 -
-89.217.46.144 - - [07/Dec/2016 17:34:20] "GET /static/btn_forward.png HTTP/1.1" 200 -
-89.217.46.144 - - [07/Dec/2016 17:34:20] "GET /static/btn_right.png HTTP/1.1" 200 -
-89.217.46.144 - - [07/Dec/2016 17:34:20] "GET /static/btn_stop.png HTTP/1.1" 200 -
-89.217.46.144 - - [07/Dec/2016 17:34:21] "GET /static/btn_left.png HTTP/1.1" 200 -
-89.217.46.144 - - [07/Dec/2016 17:34:21] "GET /static/btn_back.png HTTP/1.1" 200 -
-192.168.178.38 - - [07/Dec/2016 17:37:04] "GET / HTTP/1.1" 200 -
-192.168.178.38 - - [07/Dec/2016 17:37:04] "GET /static/main.css HTTP/1.1" 200 -
-192.168.178.38 - - [07/Dec/2016 17:37:04] "GET /static/main.js HTTP/1.1" 200 -
-192.168.178.38 - - [07/Dec/2016 17:37:04] "GET /static/logo.png HTTP/1.1" 200 -
-192.168.178.38 - - [07/Dec/2016 17:37:05] "GET /static/btn_forward.png HTTP/1.1" 200 -
-192.168.178.38 - - [07/Dec/2016 17:37:05] "GET /static/btn_right.png HTTP/1.1" 200 -
-192.168.178.38 - - [07/Dec/2016 17:37:05] "GET /static/btn_stop.png HTTP/1.1" 200 -
-192.168.178.38 - - [07/Dec/2016 17:37:05] "GET /static/btn_left.png HTTP/1.1" 200 -
-192.168.178.38 - - [07/Dec/2016 17:37:05] "GET /static/btn_back.png HTTP/1.1" 200 -
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
-Cannot connect to server socket err = No such file or directory
-Cannot connect to server request channel
-jack server is not running or cannot be started
-192.168.178.38 - - [07/Dec/2016 17:39:02] "GET /cmd/talk?msg=hallo%20damian HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:40:52] "GET / HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:40:52] "GET /static/main.css HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:40:53] "GET /static/main.js HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:40:53] "GET /static/logo.png HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:40:53] "GET /static/btn_left.png HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:40:53] "GET /static/btn_right.png HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:40:53] "GET /static/btn_back.png HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:40:53] "GET /static/btn_stop.png HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:40:53] "GET /static/btn_forward.png HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:40:54] "GET /favicon.ico HTTP/1.1" 404 -
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
-Cannot connect to server socket err = No such file or directory
-Cannot connect to server request channel
-jack server is not running or cannot be started
-192.168.178.45 - - [07/Dec/2016 17:41:18] "GET /cmd/talk?msg=Hey%20moshi%20moshi HTTP/1.1" 200 -
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
-Cannot connect to server socket err = No such file or directory
-Cannot connect to server request channel
-jack server is not running or cannot be started
-192.168.178.45 - - [07/Dec/2016 17:41:35] "GET /cmd/talk?msg=Moschi%20moschiiiiii HTTP/1.1" 200 -
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
-Cannot connect to server socket err = No such file or directory
-Cannot connect to server request channel
-jack server is not running or cannot be started
-192.168.178.45 - - [07/Dec/2016 17:42:15] "GET /cmd/talk?msg=iiiiiiiiiiiiiiiiiiiiiiiiii HTTP/1.1" 200 -
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
-Cannot connect to server socket err = No such file or directory
-Cannot connect to server request channel
-jack server is not running or cannot be started
-192.168.178.45 - - [07/Dec/2016 17:42:27] "GET /cmd/talk?msg=hahahaha HTTP/1.1" 200 -
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
-Cannot connect to server socket err = No such file or directory
-Cannot connect to server request channel
-jack server is not running or cannot be started
-192.168.178.45 - - [07/Dec/2016 17:42:38] "GET /cmd/talk?msg=hohohohohohohohoh HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:42:49] "GET /static/btn_left_active.png HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:42:49] "GET /cmd/Left HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:42:50] "GET /cmd/Left HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:42:51] "GET /static/btn_right_active.png HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:42:52] "GET /cmd/Right HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:42:54] "GET /cmd/Back HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:42:55] "GET /static/btn_forward_active.png HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:42:57] "GET /cmd/Forward HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:42:59] "GET /cmd/Back HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:42:59] "GET /static/btn_stop_active.png HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:42:59] "GET /cmd/Stop HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:02] "GET /cmd/Back HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:05] "GET /cmd/Back HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:05] "GET /cmd/Stop HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:05] "GET /cmd/Stop HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:08] "GET /cmd/Forward HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:09] "GET /cmd/Left HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:09] "GET /cmd/Right HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:11] "GET /cmd/Back HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:17] "GET /cmd/Back HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:18] "GET /cmd/Left HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:18] "GET /cmd/Stop HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:20] "GET /cmd/Forward HTTP/1.1" 200 -
-192.168.178.45 - - [07/Dec/2016 17:43:22] "GET /cmd/Back HTTP/1.1" 200 -
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround40
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround41
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround50
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround51
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.surround71
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.iec958
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.hdmi
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.modem
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm.c:2217:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.phoneline
-ALSA lib pcm_dmix.c:957:(snd_pcm_dmix_open) The dmix plugin supports only playback stream
-Cannot connect to server socket err = No such file or directory
-Cannot connect to server request channel
-jack server is not running or cannot be started
-192.168.178.45 - - [07/Dec/2016 17:43:45] "GET /cmd/talk?msg=aaaasaaaaaiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii HTTP/1.1" 200 -
-Command: T
-Talking
-Command: T
-Talking
-Command: T
-Talking
-Command: T
-Talking
-Command: T
-Talking
-Command: T
-Talking
-Command: L
-Turning left
+192.168.178.38 - - [09/Dec/2016 15:23:34] "GET / HTTP/1.1" 200 -
+192.168.178.38 - - [09/Dec/2016 15:25:00] "GET / HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:25:54] "GET / HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:25:54] "GET /static/main.js HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:25:54] "GET /static/main.css HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:25:54] "GET /static/logo.png HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:25:54] "GET /static/btn_forward.png HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:25:54] "GET /static/btn_right.png HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:25:54] "GET /static/btn_stop.png HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:25:54] "GET /static/btn_left.png HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:25:54] "GET /static/btn_back.png HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:25:55] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.178.98 - - [09/Dec/2016 15:25:59] "GET /static/btn_left_active.png HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:00] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:02] "GET /static/btn_right_active.png HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:02] "GET /cmd/Right HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:04] "GET /static/btn_forward_active.png HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:06] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:09] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:11] "GET /cmd/Right HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:16] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:17] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:20] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:23] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:32] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:33] "GET /cmd/Right HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:36] "GET /cmd/Right HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:39] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:41] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:43] "GET /static/btn_back_active.png HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:26:45] "GET /cmd/Back HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:00] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:02] "GET /cmd/Right HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:06] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:10] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:12] "GET /cmd/Right HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:17] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:28] "GET /cmd/Right HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:30] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:34] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:38] "GET /cmd/Right HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:42] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:45] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:27:47] "GET /cmd/Right HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:28:21] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:28:23] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:28:25] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:28:29] "GET /cmd/Forward HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:28:33] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:28:34] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:28:35] "GET /cmd/Left HTTP/1.1" 200 -
+192.168.178.98 - - [09/Dec/2016 15:28:39] "GET /cmd/Forward HTTP/1.1" 200 -
+178.197.228.236 - - [09/Dec/2016 15:32:21] "GET / HTTP/1.1" 200 -
+178.197.228.236 - - [09/Dec/2016 15:32:21] "GET /static/main.css HTTP/1.1" 200 -
+178.197.228.236 - - [09/Dec/2016 15:32:21] "GET /static/main.js HTTP/1.1" 200 -
+178.197.228.236 - - [09/Dec/2016 15:32:21] "GET /static/logo.png HTTP/1.1" 200 -
+178.197.228.236 - - [09/Dec/2016 15:32:22] "GET /static/btn_right.png HTTP/1.1" 200 -
+178.197.228.236 - - [09/Dec/2016 15:32:22] "GET /static/btn_forward.png HTTP/1.1" 200 -
+178.197.228.236 - - [09/Dec/2016 15:32:22] "GET /static/btn_back.png HTTP/1.1" 200 -
+178.197.228.236 - - [09/Dec/2016 15:32:22] "GET /static/btn_stop.png HTTP/1.1" 200 -
+178.197.228.236 - - [09/Dec/2016 15:32:22] "GET /static/btn_left.png HTTP/1.1" 200 -
+178.197.228.236 - - [09/Dec/2016 15:32:23] "GET /favicon.ico HTTP/1.1" 404 -
+178.197.228.236 - - [09/Dec/2016 15:32:34] "GET /static/btn_forward_active.png HTTP/1.1" 200 -
+178.197.228.236 - - [09/Dec/2016 15:32:36] "GET /cmd/Forward HTTP/1.1" 200 -
 Command: L
 Turning left
 Command: R
 Turning right
+Command: F
+Moving forward
+Command: F
+Moving forward
+Command: R
+Turning right
+Command: F
+Moving forward
+Command: L
+Turning left
+Command: L
+Turning left
+Command: F
+Moving forward
+Command: F
+Moving forward
+Command: R
+Turning right
+Command: R
+Turning right
+Command: F
+Moving forward
+Command: L
+Turning left
 Command: B
 Moving backward
 Command: F
 Moving forward
-Command: B
-Moving backward
-Command: S
-Stopping
-Command: B
-Moving backward
-Command: B
-Moving backward
-Command: S
-Stopping
-Command: S
-Stopping
+Command: R
+Turning right
+Command: L
+Turning left
+Command: F
+Moving forward
+Command: R
+Turning right
+Command: F
+Moving forward
+Command: R
+Turning right
+Command: L
+Turning left
+Command: F
+Moving forward
+Command: R
+Turning right
 Command: F
 Moving forward
 Command: L
 Turning left
 Command: R
 Turning right
-Command: B
-Moving backward
-Command: B
-Moving backward
-Command: L
-Turning left
-Command: S
-Stopping
 Command: F
 Moving forward
-Command: B
-Moving backward
-Command: T
-Talking
-Exception in thread Thread-1 (most likely raised during interpreter shutdown):
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/threading.py", line 552, in __bootstrap_inner
-  File "/usr/lib/python2.7/threading.py", line 505, in run
-  File "/usr/local/lib/python2.7/dist-packages/werkzeug/serving.py", line 653, in inner
+Command: L
+Turning left
+Command: L
+Turning left
+Command: F
+Moving forward
+Command: L
+Turning left
+Command: L
+Turning left
+Command: L
+Turning left
+Command: F
+Moving forward
+Command: F
+Moving forward
