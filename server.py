@@ -4,14 +4,6 @@ from subprocess import call
 import time
 
 LEFT, RIGHT, FORWARD, BACK, STOP, TALK  = "left", "right", "forward", "back", "stop", "talk"
-AVAILABLE_COMMANDS = {
-    'Left': LEFT,
-    'Right': RIGHT,
-    'Forward': FORWARD,
-    'Back': BACK,
-    'Stop': STOP,
-    'Talk': TALK
-}
 
 # Sleep interval after moving
 STIME_MOV = 2
@@ -20,9 +12,14 @@ STIME_ROT = 0.3
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route('/')
 def hello():
-    return render_template('main.html', commands=AVAILABLE_COMMANDS)
+    return render_template('main.html')
+
+@app.route('/ping')
+def ping():
+    response = 'moshimoshi'
+    return response, 200, {'Content-Type': 'text/plain'}
 
 @app.route('/cmd/<cmd>')
 def command(cmd=None):    
